@@ -5,21 +5,34 @@
         <title>Poshtik Campus - Menu</title>
     </head>
     <body>
-        <h1>Our Menu</h1>
-        <p>Ten dishes, every one of them poshtik.</p>
-        <p>
-            <ul>
-                <li>Jonna Rotte Wrap</li>
-                <li>Sajja Roti Wrap</li>
-                <li>Ragi Sangati Bowl</li>
-                <li>Ragi Idli Bowl</li>
-                <li>Peserattu with Sprouts</li>
-                <li>Ulava Charu Protein Bowl</li>
-                <li>Gongura Sprouts Salad</li>
-                <li>Sprouts Moong Chilla</li>
-                <li>Paneer Protein Bowl</li>
-                <li>Millet Protein Shake</li>
-            </ul>
-        </p>
+        <h2>Order here</h2>
+       <form>
+        <p><label for="cust-name">Enter your name:</label><br>
+        <input type="text" name="cust-name" id="cust-name"></p>
+        <p><label for="cust-phone">Enter your mobile number:</label><br>
+        <input type="tel" name="cust-phone" id="cust-phone"></p>
+        <fieldset>
+            <legend>Pick your dish:</legend>
+            <label><input type="radio" name="dish" value="jonna rotte wrap">Jonna Rotte Wrap</label>
+            <label><input type="radio" name="dish" value="sajja roti wrap">Sajja Roti Wrap</label>
+            <label><input type="radio" name="dish" value="ragi sangati bowl">Ragi Sangati Bowl</label>
+            <label><input type="radio" name="dish" value="ragi idli bowl">Ragi Idli Bowl</label>
+            <label><input type="radio" name="dish" value="peserattu with sprouts">Peserattu with Sprouts</label>
+            <label><input type="radio" name="dish" value="ulava charu protein bowl">Ulava Charu Protein Bowl</label>
+            <label><input type="radio" name="dish" value="gongura sprouts salad">Gongura Sprouts Salad</label>
+            <label><input type="radio" name="dish" value="sprouts moong chilla">Sprouts Moong Chilla</label>
+            <label><input type="radio" name="dish" value="paneer protein bowl">Paneer Protein Bowl</label>
+            <label><input type="radio" name="dish" value="jonna rotte wrap">Millet Protein Shake</label>
+        </fieldset>
+        <p><label for="quantity">Quantity</label><br>
+        <input type="number" name="quantity" id="quantity"></p>
+        <p><label for="notes">Notes for the kitchen</label><br>
+        <input type="text" name="notes" id="notes"></p>
+        <button type="submit">Place order</button>
+       </form>
+       <ul>
+        <li href="index.html">Home</li>
+        <li href="about.html">About Us</li>
+       </ul>
     </body>
 </html>

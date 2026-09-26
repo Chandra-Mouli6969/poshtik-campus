@@ -1,0 +1,32 @@
+.dish{
+    background-color: mintcream;
+    border:1px solid seagreen;
+    border-radius:20px;
+    padding:12px;
+    margin:12px;
+    width:200px;
+}
+.dish h3{
+    font-style: italic;
+    background-image: linear-gradient(180deg, #40916c 0%, #1b4332 60%, #081c15 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: text;
+    margin-top:0;
+}
+section{
+    background-color:rgb(171, 235, 203);
+    border:1px solid seagreen;
+    border-radius:20px;
+    padding:12px;
+    margin:12px;
+    width:150px;
+}
+section h3{
+    color:rgb(255, 69, 69);
+}
+nav a{
+    color:seagreen;
+}
+body{
+    background-color: rgb(103, 243, 145);
+}
